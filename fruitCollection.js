@@ -4,9 +4,9 @@ let grapeCount = 50
 let bananaCount = 40
 let appleCount = 20
 
-let grapeWidth = ((grapeWidth/100)*100).toString()
-let bananaWidth = ((bananaWidth/100)*100).toString()
-let appleWidth = ((appleWidth/100)*100).toString()
+let grapeWidth = ((grapeCount/100)*100).toString()
+let bananaWidth = ((bananaCount/100)*100).toString()
+let appleWidth = ((appleCount/100)*100).toString()
 
 $('#grape').css("width", grapeWidth + "%")
 $('#grape').css("height", "50px")
